@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_NOTO_SERIF_NAME</Name>
+    <Guid>229fe521-2d31-4f02-aaf4-c11770c9251c</Guid>
+    <ProjectGuid>aaaae490-8d19-4f29-954c-5d435e4eedea</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_NOTO_SERIF_TEASER</Teaser>
+    <Description>LOC_NOTO_SERIF_DESCRIPTION</Description>
+    <Authors>Shimamura</Authors>
+    <SpecialThanks>Awaw</SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>NotoSerif</AssemblyName>
+    <RootNamespace>NotoSerif</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><ImportFiles id="NotoSerifSettings_ImportFiles"><File>Civ6_FontStyles_EFIGS.xml</File><File>Civ6_FontStyles_ja_JP.xml</File><File>Civ6_FontStyles_ko_KR.xml</File><File>Civ6_FontStyles_zh_Hans_CN.xml</File><File>Civ6_FontStyles_zh_Hant_HK.xml</File><File>NotoSerifCJKjp-Medium.otf</File><File>NotoSerifCJKjp-Regular.otf</File><File>NotoSerifCJKjp-SemiBold.otf</File><File>NotoSerifCJKkr-Medium.otf</File><File>NotoSerifCJKkr-Regular.otf</File><File>NotoSerifCJKkr-SemiBold.otf</File><File>NotoSerifCJKsc-Medium.otf</File><File>NotoSerifCJKsc-Regular.otf</File><File>NotoSerifCJKsc-SemiBold.otf</File><File>NotoSerifCJKtc-Medium.otf</File><File>NotoSerifCJKtc-Regular.otf</File><File>NotoSerifCJKtc-SemiBold.otf</File><File>NotoSerif-Medium.ttf</File><File>NotoSerif-MediumItalic.ttf</File><File>NotoSerif-Regular.ttf</File><File>NotoSerif-SemiBold.ttf</File><File>PackageText.xml</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="NotoSerif_ImportFiles"><File>Civ6_FontStyles_EFIGS.xml</File><File>Civ6_FontStyles_ja_JP.xml</File><File>Civ6_FontStyles_ko_KR.xml</File><File>Civ6_FontStyles_zh_Hans_CN.xml</File><File>Civ6_FontStyles_zh_Hant_HK.xml</File><File>NotoSerifCJKjp-Medium.otf</File><File>NotoSerifCJKjp-Regular.otf</File><File>NotoSerifCJKjp-SemiBold.otf</File><File>NotoSerifCJKkr-Medium.otf</File><File>NotoSerifCJKkr-Regular.otf</File><File>NotoSerifCJKkr-SemiBold.otf</File><File>NotoSerifCJKsc-Medium.otf</File><File>NotoSerifCJKsc-Regular.otf</File><File>NotoSerifCJKsc-SemiBold.otf</File><File>NotoSerifCJKtc-Medium.otf</File><File>NotoSerifCJKtc-Regular.otf</File><File>NotoSerifCJKtc-SemiBold.otf</File><File>NotoSerif-Medium.ttf</File><File>NotoSerif-MediumItalic.ttf</File><File>NotoSerif-Regular.ttf</File><File>NotoSerif-SemiBold.ttf</File><File>PackageText.xml</File></ImportFiles></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Civ6_FontStyles_EFIGS.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civ6_FontStyles_ja_JP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civ6_FontStyles_ko_KR.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civ6_FontStyles_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civ6_FontStyles_zh_Hant_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerif-Medium.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerif-MediumItalic.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerif-Regular.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerif-SemiBold.ttf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKjp-Medium.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKjp-Regular.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKjp-SemiBold.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKkr-Medium.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKkr-Regular.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKkr-SemiBold.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKsc-Medium.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKsc-Regular.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKsc-SemiBold.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKtc-Medium.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKtc-Regular.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NotoSerifCJKtc-SemiBold.otf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PackageText.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

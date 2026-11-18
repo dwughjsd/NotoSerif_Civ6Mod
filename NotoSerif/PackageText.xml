@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PackageText -->
+<!-- Author: Awase -->
+<!-- DateCreated: 11/17/2026 2:16:32 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_NOTO_SERIF_NAME" Language="en_US">
+			<Text>Noto Serif</Text>
+		</Row>
+
+		<Row Tag="LOC_NOTO_SERIF_TEASER" Language="en_US">
+			<Text>Noto Serif</Text>
+		</Row>
+
+		<Row Tag="LOC_NOTO_SERIF_DESCRIPTION" Language="en_US">
+			<Text>Noto Serif</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
